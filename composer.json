@@ -1,0 +1,25 @@
+{
+    "name": "dustin/filesystem",
+    "type": "library",
+    "description": "A Symfony bundle to manage filesystems with the League Flysystem",
+    "keywords": [
+        "filesystem",
+        "symfony-bundle",
+        "league-flysystem",
+        "manager"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "Dustin Simon"
+    }],
+    "autoload": {
+        "psr-4": { "Dustin\\Filesystem\\": "src/" },
+        "exclude-from-classmap": ["src/Test/"]
+    },
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
