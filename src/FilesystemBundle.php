@@ -2,7 +2,7 @@
 
 namespace Dustin\Filesystem;
 
-use Dustin\Filesystem\DependecyInjection\RegistryCompilerPass;
+use Dustin\Filesystem\DependencyInjection\RegistryCompilerPass;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
