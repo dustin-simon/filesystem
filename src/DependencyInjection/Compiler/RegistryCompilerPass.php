@@ -1,6 +1,6 @@
 <?php
 
-namespace Dustin\Filesystem\DependencyInjection;
+namespace Dustin\Filesystem\DependencyInjection\Compiler;
 
 use Dustin\Filesystem\FilesystemRegistry;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
