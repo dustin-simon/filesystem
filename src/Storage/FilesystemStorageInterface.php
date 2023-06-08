@@ -7,9 +7,11 @@ use Dustin\Filesystem\Identifier;
 
 interface FilesystemStorageInterface
 {
-    public function getConfig(Identifier $identifier): ?FilesystemConfig;
+    public function get(Identifier $identifier): ?FilesystemConfig;
 
     public function upsert(FilesystemConfig $config): void;
 
-    public function delete(Identifier $identifier): void;
+    public function remove(Identifier $identifier): void;
+
+    public function has(Identifier $identifier): bool;
 }
